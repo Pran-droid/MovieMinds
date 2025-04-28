@@ -1,0 +1,2 @@
+# MovieMinds
+The Spring project.
