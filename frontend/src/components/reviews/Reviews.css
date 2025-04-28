@@ -1,0 +1,31 @@
+.review-card {
+    background-color: #2b2b2b;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review-header strong {
+    color: #0dcaf0;
+}
+
+.review-header small {
+    color: #888;
+}
+
+.review-body {
+    color: #fff;
+    word-wrap: break-word;
+}
+
+hr {
+    border-color: #444;
+    margin: 20px 0;
+}

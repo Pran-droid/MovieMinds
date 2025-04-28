@@ -1,0 +1,58 @@
+.watchlist-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.watchlist-movies {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.watchlist-movie-card {
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.watchlist-movie-card:hover {
+    transform: scale(1.03);
+}
+
+.watchlist-movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.watchlist-movie-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.watchlist-movie-info h3 {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
